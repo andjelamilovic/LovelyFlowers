@@ -91,7 +91,7 @@ body {
 
 .carousel-caption h5 {
   font-size: 1.2em;
-  font-family: 'Bad Script', cursive;
+  font-family: 'Bad Script', cursive;
   letter-spacing: 5px;
   font-style: italic;
 }
@@ -181,7 +181,11 @@ ul.social-network li {
   background-color: #e4405f;
 }
 
-.social-network a.icoFacebook:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoTwitter:hover i, .social-network a.icoGplus:hover i, .social-network a.icoInstagram:hover i {
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGplus:hover i,
+.social-network a.icoInstagram:hover i {
   color: #fff;
 }
 
@@ -262,7 +266,10 @@ ul.social-network li {
 }
 
 /*SECTION 2*/
-#bg, #bg2, #bg4, #bg5 {
+#bg,
+#bg2,
+#bg4,
+#bg5 {
   background-image: url("../img/one_rose.jpg");
   height: 100%;
   background-position: center;
@@ -273,32 +280,50 @@ ul.social-network li {
           clip-path: polygon(50% 7%, 50% 7%, 100% 0, 100% 90%, 50% 100%, 50% 100%, 0 90%, 0 0);
 }
 
-#bg .pagelines, #bg2 .pagelines, #bg4 .pagelines, #bg5 .pagelines {
+#bg .pagelines,
+#bg2 .pagelines,
+#bg4 .pagelines,
+#bg5 .pagelines {
   font-size: 30px;
 }
 
-#bg h1, #bg2 h1, #bg4 h1, #bg5 h1 {
+#bg h1,
+#bg2 h1,
+#bg4 h1,
+#bg5 h1 {
   font-family: 'Bad Script', cursive;
   color: #F5A5A5;
 }
 
-#bg .btn:hover, #bg2 .btn:hover, #bg4 .btn:hover, #bg5 .btn:hover {
+#bg .btn:hover,
+#bg2 .btn:hover,
+#bg4 .btn:hover,
+#bg5 .btn:hover {
   background: #fff;
   color: #000;
 }
 
-#bg .btn4, #bg2 .btn4, #bg4 .btn4, #bg5 .btn4 {
+#bg .btn4,
+#bg2 .btn4,
+#bg4 .btn4,
+#bg5 .btn4 {
   border: 1px solid #fff;
   color: #fff;
   border-radius: 0.25rem;
 }
 
-#bg p, #bg2 p, #bg4 p, #bg5 p {
+#bg p,
+#bg2 p,
+#bg4 p,
+#bg5 p {
   font-size: 0.8em;
 }
 
 @media (min-width: 576px) {
-  #bg p, #bg2 p, #bg4 p, #bg5 p {
+  #bg p,
+  #bg2 p,
+  #bg4 p,
+  #bg5 p {
     font-size: 1em;
   }
 }
@@ -434,14 +459,16 @@ ul.social-network li {
 /*services end*/
 /*SHOP*/
 /*section 1*/
-#exampleModal3 h5, #exampleModal3 .col-form-label {
+#exampleModal3 h5,
+#exampleModal3 .col-form-label {
   font-family: 'Bad Script', cursive;
   color: #F5A5A5;
   font-size: 1.1em;
 }
 
 @media (min-width: 576px) {
-  #exampleModal3 h5, #exampleModal3 .col-form-label {
+  #exampleModal3 h5,
+  #exampleModal3 .col-form-label {
     font-size: 1.3em;
   }
 }
@@ -453,7 +480,8 @@ ul.social-network li {
           clip-path: polygon(50% 7%, 50% 7%, 100% 0, 100% 90%, 50% 100%, 50% 100%, 0 90%, 0 0);
 }
 
-.modal-body input:hover, .modal-body select:hover {
+.modal-body input:hover,
+.modal-body select:hover {
   -webkit-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
           box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
 }
@@ -478,7 +506,9 @@ ul.social-network li {
 }
 
 /*section 2*/
-#contact h1, #contact label, #contact .btn8 {
+#contact h1,
+#contact label,
+#contact .btn8 {
   font-family: 'Bad Script', cursive;
   color: #F5A5A5;
 }
@@ -493,11 +523,14 @@ ul.social-network li {
   }
 }
 
-#contact label, #contact .btn8 {
+#contact label,
+#contact .btn8 {
   font-weight: bold;
 }
 
-#contact input:hover, #contact .btn8:hover, #contact textarea:hover {
+#contact input:hover,
+#contact .btn8:hover,
+#contact textarea:hover {
   -webkit-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
           box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
 }
@@ -526,12 +559,14 @@ ul.social-network li {
   padding-top: 20px;
 }
 
-#contact #social2 li, #contact #social2 p {
+#contact #social2 li,
+#contact #social2 p {
   font-size: 0.7em;
 }
 
 @media (min-width: 768px) {
-  #contact #social2 li, #contact #social2 p {
+  #contact #social2 li,
+  #contact #social2 p {
     font-size: 1em;
   }
 }
@@ -676,6 +711,11 @@ ul.social-network li {
   height: 130px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#modal1 h4,
+#modal1 h6 {
+  font-family: 'Bad Script', cursive;
 }
 
 /*author end*/
