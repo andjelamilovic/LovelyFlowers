@@ -475,6 +475,7 @@ ul.social-network {
     border: 1px solid  $color2;
     border-radius: .25rem;
     height:60px;
+    padding: 0px;
     &:hover{
       background-color: $color1;
       color: $color3;
@@ -484,6 +485,10 @@ ul.social-network {
     }
     a {
       color: $color1;
+      width: 100%;
+      display: block;
+      height: 60px;
+    padding-top: 20px;
     }
 }
   #social2{
