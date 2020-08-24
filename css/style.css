@@ -384,6 +384,10 @@ ul.social-network li {
 /*home end*/
 /*SERVICES*/
 /*SECTION 1*/
+#s15 {
+  padding: 5rem 0rem;
+}
+
 #s15 .card {
   -webkit-transition: all .5s;
   transition: all .5s;
