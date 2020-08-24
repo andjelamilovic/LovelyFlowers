@@ -513,6 +513,15 @@ ul.social-network {
   background-color: $color5;
   border-radius: 10px;
   box-shadow: 0 20px 40px -10px rgba(0,0,0,.3);
+  #author-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  i {
+    font-size: 40px;
+    margin-top: 2rem!important;
+    margin-bottom: 2rem!important;
+  }
   a{
     color: $color2;
     font-weight: bold;

@@ -552,6 +552,21 @@ ul.social-network li {
           box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
 }
 
+#author #author-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#author i {
+  font-size: 40px;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
 #author a {
   color: #F5A5A5;
   font-weight: bold;

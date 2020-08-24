@@ -10,6 +10,7 @@
     <link rel='stylesheet' type='text/css' href='css/materialize.min.css'/>
     <link rel='stylesheet' type='text/css' href='css/style.css'/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>LovelyFlowers | Home page</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -20,9 +21,26 @@
       <div class="container">
           <div id="author">
               <hr>
-                  <a href="index.html"><img src="https://img.icons8.com/officel/50/000000/home-page.png" alt="img.icons8.com/wired" class="  right"></a>
+                <div id="author-nav">
+                  <a href="#" data-target="slide-navigacija" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                   <h1 class="center">Author</h1>
-              
+                  <a href="index.html"><img src="https://img.icons8.com/officel/50/000000/home-page.png" alt="img.icons8.com/wired" class="  right"></a>
+                  <!-- slide nav -->
+                  <ul id="slide-navigacija" class="sidenav">
+                    <li>
+                      <a href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a  href="services.html">SERVICES</a>
+                    </li>
+                    <li >
+                      <a  href="shop.html">SHOP</a>
+                    </li>
+                    <li >
+                        <a  href="contact.html">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
               <div id="section2">
                 <div id="bg" class=" bg12 row  center grey-text text-lighten-5 ">
                         <h6>A&#9662;b&#9662;o&#9662;u&#9662;t</h6>
@@ -108,9 +126,9 @@
     $(document).ready(function(){
         $('.carousel').carousel();
     });
-    // $(document).ready(function(){
-    //   $('.sidenav').sidenav();
-    // });
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+    });
     $(document).ready(function(){
         $('.modal').modal();
     });
